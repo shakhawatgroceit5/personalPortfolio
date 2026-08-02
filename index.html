@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="/portfolio/assets/css/style.css" />
     <!-- Custom Responsive Media Query -->
     <link rel="stylesheet" href="/portfolio/assets/css/responsiveQueries.css" />
+    <!-- Custom Header CSS -->
+    <link rel="stylesheet" href="/portfolio/assets/css/header/header.css" />
     <!-- Bootstrap CSS -->
     <link
       rel="stylesheet"
@@ -32,8 +34,75 @@
     />
   </head>
   <body>
-    <h1>Hello.....</h1>
-    <h2>Personal Portfolio Website</h2>
+    <!-- Header Navigation bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black fixed-top">
+      <div class="container d-flex align-items-center">
+        <a href="#" class="navbar-brand">
+          <span class="text-warning fs-2 fw-bold">A</span>
+          <span class="text-white fs-4 fw-bold">PersonalPortfolio</span>
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarId"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarId">
+          <ul class="navbar-nav text-center mx-auto gap-4">
+            <li class="nav-item">
+              <a
+                href="#"
+                class="nav-link text-warning active"
+                id="underline-active"
+                >Home</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a href="#" class="nav-link">About</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#" class="nav-link">Services</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#" class="nav-link">Contact Us</a>
+            </li>
+          </ul>
+
+          <a href="#" class="py-2 px-5 btn btn-outline-warning text-center">
+            Sign In
+          </a>
+        </div>
+      </div>
+    </nav>
+    <!-- Hero Section -->
+    <section class="container-fluid pt-5 hero">
+      <a
+        href=""
+        class="text-decoration-none bg-dark text-white fs-3 fw-bolder px-5 text-center rounded-5 p-2 border border-1 border-warning slider-the-GreateStar"
+      >
+        A</a
+      >
+      <h3 class="text-white fw-bolder slider-content">
+        I AM FULL STACK DEVELOPER
+      </h3>
+      <p class="text-white fw-bolder slider-para">
+        The-Personal Portfolio Website, I Learning today Coding
+      </p>
+
+      <a
+        href=""
+        class="btn btn-warning py-3 px-5 fs-5 text-white slider-content-button logo"
+        >Learn More</a
+      >
+    </section>
+    <!-- End -->
     <!-- Custom JavaScript -->
     <link rel="stylesheet" href="/portfolio/assets/js/first.js" />
     <!-- Bootstrap JS -->
