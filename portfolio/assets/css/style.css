@@ -94,7 +94,7 @@ section::before {
 /* WhataApp */
 .whatsapp-btn {
   position: fixed;
-  bottom: 20px;
+  bottom: 80px;
   right: 20px;
   width: 60px;
   height: 60px;
@@ -114,4 +114,7 @@ section::before {
   background: #1ebe5d;
   transform: scale(1.1);
   transition: 0.3s;
+}
+span i {
+  color: red;
 }
