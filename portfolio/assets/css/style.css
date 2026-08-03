@@ -36,7 +36,7 @@ section::before {
 /* box a  */
 .slider-the-GreateStar {
   position: absolute;
-  top: 25%;
+  top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -46,7 +46,7 @@ section::before {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 100px;
+  font-size: 80px;
 }
 /* slider-para-content */
 .slider-para {
@@ -58,7 +58,7 @@ section::before {
 /* slider button */
 .slider-content-button {
   position: absolute;
-  top: 85%;
+  top: 80%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 22px;
