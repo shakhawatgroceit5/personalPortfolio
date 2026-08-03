@@ -76,3 +76,42 @@ section::before {
     background-position: center top;
   }
 }
+
+/* Card section  */
+.btn-icon {
+  font-size: 80px;
+  font-weight: 800;
+}
+.card {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  transition: 1.2s ease-in-out;
+  border: none;
+}
+.card:hover {
+  transform: scale(1.1);
+  /* transition: 0.3s; */
+}
+/* WhataApp */
+.whatsapp-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 60px;
+  height: 60px;
+  background: #25d366;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  text-decoration: none;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  z-index: 999;
+}
+
+.whatsapp-btn:hover {
+  background: #1ebe5d;
+  transform: scale(1.1);
+  transition: 0.3s;
+}
