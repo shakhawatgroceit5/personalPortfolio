@@ -129,3 +129,11 @@ span i {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+/* singin hover */
+.signin-btn:hover {
+  text-decoration: underline !important;
+}
+/* register form */
+.register-btn:hover {
+  text-decoration: underline !important;
+}
